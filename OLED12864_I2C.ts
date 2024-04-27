@@ -183,7 +183,7 @@ namespace OLED12864_I2C {
      * @param y is Y alis, eg: 0
      * @param color is dot color, eg: 1
      */
-    //% blockId="OLED12864_I2C_PIXEL" block="set pixel at x %x|y %y|color %color"
+    //% blockId="OLED12864_I2C_PIXEL" block="設定像素x %x|y %y|顏色 %color"
     //% weight=70 blockGap=8
     //% parts=OLED12864_I2C trackArgs=0
     export function pixel(x: number, y: number, color: number = 1) {
@@ -213,7 +213,7 @@ namespace OLED12864_I2C {
      * @param s is the text will be show, eg: 'Hello!'
      * @param color is string color, eg: 1
      */
-    //% blockId="OLED12864_I2C_SHOWSTRING" block="show string at x %x|y %y|text %s|color %color"
+    //% blockId="OLED12864_I2C_SHOWSTRING" block="在 x %x|y %y|繪畫字串 %s|顏色 %color"
     //% weight=80 blockGap=8
     //% parts=OLED12864_I2C trackArgs=0
     export function showString(x: number, y: number, s: string, color: number = 1) {
